@@ -1,0 +1,37 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build Folders
+bin/
+obj/
+Debug/
+Release/
+
+# IIS Express
+/.vs/
+/_IISExpress/
+
+# SQL Server / Database
+*.mdf
+*.ldf
+*.ndf
+Database/*.mdf
+Database/*.ldf
+
+# Packages
+*.nupkg
+*.snupkg
+*.nuget
+
+# Logs
+*.log
+*.tlog
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+*.DS_Store
