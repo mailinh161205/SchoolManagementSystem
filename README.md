@@ -32,7 +32,8 @@ Bootstrap (UI Styling)
 Open SQL Server Management Studio (SSMS)
 
 Open file:
-Database/SchoolSysDB.sql
+
+    Database/SchoolSysDB.sql
 
 Click Execute to run the script
 
@@ -44,18 +45,15 @@ Database SchoolSysDB will be created automatically
 
 Clone this repository:
 
-  git clone https://github.com/mailinh161205/SchoolManagementSystem.git
+    git clone https://github.com/mailinh161205/SchoolManagementSystem.git
 
 Open solution file in Visual Studio
 
 Update connection string in Web.config:
 
-<connectionStrings>
-  
-  <add name="conn"
-    
-       connectionString="Data Source=.;Initial Catalog=SchoolSysDB;Integrated Security=True"/>
-       
-</connectionStrings>
+    <connectionStrings>
+      <add name="conn"
+           connectionString="Data Source=.;Initial Catalog=SchoolSysDB;Integrated Security=True"/>
+    </connectionStrings>
     
 Press F5 to run the project
