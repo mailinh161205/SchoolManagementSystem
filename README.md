@@ -1,41 +1,41 @@
-School Management System
+# School Management System
 
 A web-based School Management System built using ASP.NET Web Forms and SQL Server, designed to manage students, teachers, attendance, marks, and fees efficiently.
 
 
 📌 Features:
 
-Role-based system: Admin, Teacher, Student
+- Role-based system: Admin, Teacher, Student
 
-Attendance management
+- Attendance management
 
-Marks management
+- Marks management
 
-Fees management
+- Fees management
 
-Subject & class management
+- Subject & class management
 
 
 🛠 Technologies Used:
 
-ASP.NET Web Forms (C#)
+- ASP.NET Web Forms (C#)
 
-SQL Server
+- SQL Server
 
-ADO.NET
+- ADO.NET
 
-Bootstrap (UI Styling)
+- Bootstrap (UI Styling)
 
 
 ⚙️ Setup Database:
 
-Open SQL Server Management Studio (SSMS)
+1. Open SQL Server Management Studio (SSMS)
 
-Open file:
+2. Open file:
 
-    Database/SchoolSysDB.sql
+        Database/SchoolSysDB.sql
 
-Click Execute to run the script
+3. Click Execute to run the script
 
 Database SchoolSysDB will be created automatically
 
@@ -43,17 +43,17 @@ Database SchoolSysDB will be created automatically
 
 🚀 How to Run the Project:
 
-Clone this repository:
+1. Clone this repository:
 
-    git clone https://github.com/mailinh161205/SchoolManagementSystem.git
+        git clone https://github.com/mailinh161205/SchoolManagementSystem.git
 
-Open solution file in Visual Studio
+2. Open solution file in Visual Studio
 
-Update connection string in Web.config:
+3. Update connection string in Web.config:
 
-    <connectionStrings>
-      <add name="conn"
-           connectionString="Data Source=.;Initial Catalog=SchoolSysDB;Integrated Security=True"/>
-    </connectionStrings>
+        <connectionStrings>
+          <add name="conn"
+               connectionString="Data Source=.;Initial Catalog=SchoolSysDB;Integrated Security=True"/>
+        </connectionStrings>
     
-Press F5 to run the project
+4. Press F5 to run the project
