@@ -88,6 +88,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\styles.css" />
+    <Content Include="Database\SchoolSysDB.sql" />
     <Content Include="Global.asax" />
     <Content Include="Image\bg3.jpg" />
     <Content Include="Image\login.jpg" />
@@ -205,6 +206,7 @@
     <Content Include="Student\MySubjects.aspx" />
     <Content Include="Student\StudentHome.aspx" />
     <Content Include="Student\TeacherContacts.aspx" />
+    <Content Include="Teacher\Marks.aspx" />
     <Content Include="Teacher\MarksDetails.aspx" />
     <Content Include="Teacher\StudAttendanceDetails.aspx" />
     <Content Include="Teacher\StudentAttendance.aspx" />
@@ -401,6 +403,13 @@
     </Compile>
     <Compile Include="Student\TeacherContacts.aspx.designer.cs">
       <DependentUpon>TeacherContacts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher\Marks.aspx.cs">
+      <DependentUpon>Marks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teacher\Marks.aspx.designer.cs">
+      <DependentUpon>Marks.aspx</DependentUpon>
     </Compile>
     <Compile Include="Teacher\MarksDetails.aspx.cs">
       <DependentUpon>MarksDetails.aspx</DependentUpon>

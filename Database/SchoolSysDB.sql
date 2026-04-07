@@ -311,7 +311,7 @@ VALUES ('admin@gmail.com', 'admin123', 'Admin')
 
 INSERT INTO Account (Username, Password, Role, RefId)
 SELECT Email, Password, 'Teacher', TeacherId
-FROM Teacher
+FROM Teacherq2
 
 INSERT INTO Account (Username, Password, Role, RefId)
 SELECT RollNo, '123', 'Student', StudentId
